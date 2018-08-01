@@ -1,3 +1,9 @@
+// const example = require('./example')
+
+// module.exports = {
+//     example
+// }
+
 /* eslint-disable no-console */
 const defaultAwesomeFunction = require('../lib').default;
 const { awesomeFunction } = require('../lib');

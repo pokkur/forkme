@@ -24,4 +24,4 @@
 
 # License
 
-<!-- MIT © Dinesh Pandiyan -->
+<!-- MIT © Pokkur -->
