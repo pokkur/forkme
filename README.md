@@ -24,7 +24,7 @@ const Ribbon = new Forkme('pokkur/forkme', 'right')
 
 ### You can add Forkme custom style
 
-```css
+```scss
 [class^="forkme--"] {
     &:hover {
         opacity: .1 !important;
