@@ -6,6 +6,7 @@
         "mocha": true
     },
     "rules": {
+        "strict": 0,
         "comma-dangle": ["error", "only-multiline"],
         "semi": [2, "never"],
         "indent": ["error", 4, { "SwitchCase": 1 }],

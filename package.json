@@ -1,33 +1,35 @@
 {
-    "name": "TODO",
-    "version": "TODO",
-    "description": "TODO",
-    "module": "./lib/index.js",
-    "main": "./dist/defaultAwesomeFunction.min.js",
-    "scripts": {
-        "prepublish": "yarn build",
-        "build": "rollup -c rollup.config.js"
-    },
-    "files": [
-        "lib",
-        "src"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/pokkur/npm-module-boilerplate.git"
-    },
+    "name": "@pokkur/forkme",
+    "version": "1.0.0",
+    "description": "Stick a 'Fork Me On GitHub' ribbon onto the page.",
     "keywords": [
         "npm",
         "module",
         "node",
         "javascript"
     ],
-    "author": "TODO",
+    "module": "./lib/index.js",
+    "main": "./dist/forkme.min.js",
+    "files": [
+        "lib",
+        "dist",
+        "src"
+    ],
+    "scripts": {
+        "prepublish": "yarn build && yarn lint",
+        "build": "rollup -c rollup.config.js",
+        "lint": "eslint src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pokkur/forkme.git"
+    },
+    "author": "Yoshiki Kobayashi <siggy.hannes@gmail.com> (https://github.com/pokkur)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/pokkur/npm-module-boilerplate/issues"
+        "url": "https://github.com/pokkur/forkme/issues"
     },
-    "homepage": "https://github.com/pokkur/npm-module-boilerplate#readme",
+    "homepage": "https://github.com/pokkur/forkme#readme",
     "devDependencies": {
         "@babel/cli": "^7.0.0",
         "@babel/core": "^7.0.0",
@@ -36,11 +38,11 @@
         "@babel/polyfill": "^7.0.0",
         "@babel/preset-env": "^7.0.0",
         "@babel/runtime-corejs2": "^7.0.0",
-        "babel-eslint": "^8.2.1",
+        "babel-eslint": "^9.0.0",
         "babel-preset-minify": "^0.5.0-alpha.e9f96ffe",
         "core-js": "^2.5.7",
         "cross-env": "^5.1.3",
-        "eslint": "^5.4.0",
+        "eslint": "^5.0.0-rc.0",
         "eslint-config-airbnb": "^17.1.0",
         "eslint-plugin-import": "^2.7.0",
         "eslint-plugin-jsx-a11y": "^6.0.2",
@@ -51,6 +53,7 @@
         "rollup": "^0.65.0",
         "rollup-plugin-babel": "^4.0.0-beta.8",
         "rollup-plugin-commonjs": "^9.1.6",
+        "rollup-plugin-eslint": "^5.0.0",
         "rollup-plugin-node-resolve": "^3.3.0",
         "rollup-plugin-uglify": "^4.0.0"
     }

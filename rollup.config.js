@@ -10,7 +10,7 @@ export default [
         output: {
             file: 'lib/index.js',
             format: 'umd',
-            name: 'defaultAwesomeFunction'
+            name: 'Forkme'
         },
         plugins: [
             babel({
@@ -24,9 +24,9 @@ export default [
     {
         input: 'src/index.js',
         output: {
-            file: 'dist/defaultAwesomeFunction.min.js',
+            file: 'dist/forkme.min.js',
             format: 'umd',
-            name: 'defaultAwesomeFunction'
+            name: 'Forkme'
         },
         plugins: [
             resolve({

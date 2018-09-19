@@ -1,7 +1,24 @@
-# NPM Module Boilerplate
+# @pokkur/Forkme
 
-<!-- [![Build Status](https://travis-ci.org/flexdinesh/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/flexdinesh/npm-module-boilerplate) [![dependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate) [![devDependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) -->
+Stick a 'Fork Me On GitHub' ribbon onto the page.
+
+## Usage
+
+```js
+import forkme from '@pokkur/forkme'
+```
+
+or
+
+### browser
+
+```html
+```
+
+```js
+const Ribbon = new Forkme('pokkur/forkme', 'right')
+```
 
 # License
 
-<!-- MIT © Pokkur -->
+MIT © Pokkur
