@@ -13,6 +13,7 @@ or
 ### browser
 
 ```html
+<script src="https://cdn.jsdelivr.net/npm/@pokkur/forkme@1.0.1/dist/forkme.min.js"></script>
 ```
 
 ```js
