@@ -22,7 +22,7 @@ or
 const Ribbon = new Forkme('pokkur/forkme', 'right')
 ```
 
-### You can add Forkme style
+### You can add Forkme custom style
 
 ```css
 [class^="forkme--"] {
