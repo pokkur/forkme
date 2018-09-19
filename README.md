@@ -4,6 +4,8 @@ Stick a 'Fork Me On GitHub' ribbon onto the page.
 
 ## Usage
 
+### npm
+
 ```js
 import forkme from '@pokkur/forkme'
 ```
@@ -18,6 +20,17 @@ or
 
 ```js
 const Ribbon = new Forkme('pokkur/forkme', 'right')
+```
+
+### You can add Forkme style
+
+```css
+[class^="forkme--"] {
+    &:hover {
+        opacity: .1 !important;
+        color: yellow !important;
+    }
+}
 ```
 
 # License
