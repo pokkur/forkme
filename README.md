@@ -1,6 +1,7 @@
 # @pokkur/Forkme
 
-Stick a 'Fork Me On GitHub' ribbon onto the page.
+Stick a 'Fork Me On GitHub' ribbon onto the page.  
+> [demo](https://pokkur.github.io/forkme/)
 
 ## Setup
 
