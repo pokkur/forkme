@@ -36,6 +36,10 @@ const Ribbon = new Forkme('pokkur/forkme', 'right')
 }
 ```
 
+## Next
+
+- [ ] Light Color
+
 # License
 
 MIT © Pokkur
