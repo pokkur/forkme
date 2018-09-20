@@ -8,7 +8,7 @@ Stick a 'Fork Me On GitHub' ribbon onto the page.
 ### npm
 
 ```js
-import forkme from '@pokkur/forkme'
+import Forkme from '@pokkur/forkme'
 ```
 
 or
