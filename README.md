@@ -2,7 +2,7 @@
 
 Stick a 'Fork Me On GitHub' ribbon onto the page.
 
-## Usage
+## Setup
 
 ### npm
 
@@ -17,6 +17,8 @@ or
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@pokkur/forkme@latest/dist/forkme.min.js"></script>
 ```
+
+## Usage
 
 ```js
 const Ribbon = new Forkme('pokkur/forkme', 'right')
